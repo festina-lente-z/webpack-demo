@@ -55,5 +55,7 @@
   },
   ```
 - `webpack-cli`作用：可以使我们在命令行中使用`webpack`这个命令
+### 8. webpack.config.js配置
+- `npm install file-loader -D` 安装file-loader
 ## 💻 webpack练习demo
 
