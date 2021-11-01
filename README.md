@@ -22,6 +22,7 @@
 - `npm init`｜`npm init -y`
   初始化项目，会生成一个package.json文件。
 - `npm install`
+  安装项目所依赖的包
 ### 6. webpack安装&卸载
 - 全局安装(一般不推荐)
   `npm install webpack webpack-cli -g`
