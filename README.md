@@ -9,6 +9,7 @@
   mkdir lesson
 	```
 - `clear`清屏
+- `ls`列出当前目录下的所有内容
 ### 2. `<script>`标签
 - `<script>`标签加载顺序
   - `<script>`标签放在`<head>`里
@@ -60,3 +61,19 @@
 - `npm install file-loader -D` 安装file-loader
 ## 💻 webpack练习demo
 
+## 🔥 提升webpack的打包速度
+- 保持nodejs的版本尽量的新
+- 保持webpack的版本尽量的新
+
+## 如何管理nodejs版本
+### 用`n`模块
+- 首先查看当前node版本
+  `node -v`
+- 安装`n`模块
+  `npm install -g n`
+- 安装最新的**稳定**版本
+  `sudo n stable`
+- 或者安装最新版本
+  `sudo n latest`
+## 更新npm
+`sudo npm install npm@latest -g`

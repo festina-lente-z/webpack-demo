@@ -1,0 +1,16 @@
+{
+  "name": "how-to-install-webpack",
+  "version": "1.0.0",
+  "description": "> 📢注意： > 本文仅适用于macOS ## 环境准备 ### 安装nodejs 推荐去[nodejs官网](https://nodejs.org/zh-cn/download/)下载stable版本。`npm`作为nodejs包管理工具在安装nodejs的时候已经顺带装好了。 > 📢注意： > 保持nodejs和webpack的版本尽量的新，可以提升webpack打包速度🚀。 ### 更新nodejs 如果是之前安装过但是想更新一下nodejs版本，可以使用`n`模块。 - `node -v`首先查看当前node版本 - `npm info node`可以查看node版本信息 - `npm install -g n`安装`n`模块 - `sudo n stable`安装最新的**稳定**版本 - `sudo n latest`或者安装最新版本 ### 更新npm 如果需要更新npm可以`sudo npm install npm@latest -g` ## 安装webpack - `mkdir webpack-demo`首先创建一个文件夹 - `cd webpack-demo`进入到文件夹下 - `npm init`初始化项目，使项目符合nodejs的规范，也可以用`npm init -y`。这一步会在文件夹中生成`package.json`，这个文件描述了node项目的一些信息。 -",
+  "private": true,
+  "scripts": {
+    "bundle": "webpack"
+  },
+  "keywords": [],
+  "author": "festinalente",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
