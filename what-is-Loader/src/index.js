@@ -8,7 +8,7 @@
 // var imga = require('./a.jpg');
 
 import imga from './a.jpg';
-
+console.log(imga)
 var img = new Image();
 img.src = imga;
 
